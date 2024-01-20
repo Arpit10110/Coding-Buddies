@@ -1,0 +1,168 @@
+.navbar {
+    background-color: black;
+    display: flex;
+    height: 14vh;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.logo {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+    height: 14vh;
+}
+.navLinks {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    align-items: center;
+}
+.links{
+    display: flex;
+    gap: 7rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.links a{
+    color: white;
+}
+.links a:hover{
+    color: aqua;
+}
+.navSocial {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+.navIcons{
+    font-size: 2.5rem;
+}
+.navSocial img{
+    width: 27%;
+    height: 5vh;
+}
+.introSec{
+    display: flex;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.7rem;
+    justify-content: center;
+    padding-left: 6rem;
+    text-shadow: -20px 7px 180px #16f1ba;
+}
+.Cont1 {
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.introPara{
+    width: 87%;
+    font-size: 1.2rem;
+    text-shadow: -2px 9px 85px #16f1ba;
+}
+.ClickHere a{
+    color: #E8CF36;
+    border: 2px solid;
+    padding: 0.5rem;
+    background-color: black;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    width: 4%;
+}
+.image1 {
+    width: 50%;
+}
+.image1 img{
+    width: 100%;
+}
+@media only screen and (width<=600px){
+    .navbar {
+        background-color: black;
+        display: flex;
+        height: 10vh;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 10px;
+    }
+    .logo {
+        width: 24%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo img {
+        width: 100%;
+        height: 10vh;
+    }
+    .navLinks {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        align-items: center;
+    }
+    .links {
+        display: flex;
+        gap: 1rem;
+        font-size: 4vw;
+        color: white;
+    }
+    .navSocial {
+        display: none;
+    }
+    .introSec {
+        display: flex;
+        height: 85vh;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1.5rem;
+        gap: 1.5rem;
+    }
+    .content {
+        width: 94%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.8rem;
+        justify-content: center;
+        padding-left: 1rem;
+        text-shadow: -5px 13px 110px #16f1ba;
+    }
+    .Cont1 {
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .introPara {
+        width: 90%;
+        font-size: 1rem;
+        text-shadow: -12px 20px 79px #16f1ba;
+    }
+    .ClickHere a {
+        color: #E8CF36;
+        border: 2px solid;
+        padding: 0.5rem;
+        background-color: black;
+        font-size: 1.1rem;
+        border-radius: 1rem;
+    }
+    .image1 {
+        width: 90%;
+    }
+    .image1 img {
+        width: 94%;
+        display: flex;
+        margin: auto;
+    }
+}
