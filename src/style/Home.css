@@ -85,7 +85,14 @@
 }
 .image1 img{
     width: 100%;
+    animation: imgUp 0.9s linear infinite alternate;
+
 }
+@keyframes imgUp {
+    to {
+      transform: translateY(-8px);
+    }
+  }
 @media only screen and (width<=600px){
     .navbar {
         background-color: black;
