@@ -45,6 +45,9 @@
     width: 27%;
     height: 5vh;
 }
+.page1 {
+    padding-bottom: 4rem;
+}
 .introSec{
     display: flex;
     height: 85vh;
@@ -93,6 +96,101 @@
       transform: translateY(-8px);
     }
   }
+.Intro-box-main-div{
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+}
+.box-intro {
+    border: 3px solid white;
+    width: 26%;
+    display: flex;
+    padding: 1.1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    text-align: center;
+}
+.Intro-box-main-div :nth-child(1)
+{
+    background-color: #19094A;
+    border-radius: 15px 0px 0px 15px;
+}
+.Intro-box-main-div :nth-child(2)
+{
+    background-color: #096f4b;
+}
+.Intro-box-main-div :nth-child(3)
+{
+    background-color: #1c1c1c;
+    border-radius: 0px 15px 15px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (width<=1000px){
+    .logo {
+        width: 16%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navLinks {
+        display: flex;
+        justify-content: center;
+        gap: 6rem;
+        align-items: center;
+    }
+    .links {
+        display: flex;
+        gap: 4rem;
+        font-size: 3vw;
+        color: white;
+    }
+    .navSocial{
+        display: none;
+    }
+    .introSec {
+        display: flex;
+        height: 60vh;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .content {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.7rem;
+        justify-content: center;
+        padding-left: 1rem;
+        text-shadow: -20px 7px 180px #16f1ba;
+    }
+    .Cont1 {
+        font-size: 4vw;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .introPara {
+        width: 86%;
+        font-size: 2.3vw;
+        text-shadow: -2px 9px 85px #16f1ba;
+    }
+    .ClickHere a{
+        padding: 0.4rem;
+    }
+}
 @media only screen and (width<=600px){
     .navbar {
         background-color: black;
@@ -171,5 +269,28 @@
         width: 94%;
         display: flex;
         margin: auto;
+    }
+    .Intro-box-main-div {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-intro {
+        border: 3px solid white;
+        width: 60%;
+        display: flex;
+        padding: 0.8rem;
+        justify-content: center;
+        align-items: center;
+        font-size: 4vw;
+        text-align: center;
+    }
+    .Intro-box-main-div :nth-child(1) {
+        border-radius: 15px 15px 0px 0px;
+    }
+    .Intro-box-main-div :nth-child(3) {
+        border-radius: 0px 0px 15px 15px;
     }
 }
