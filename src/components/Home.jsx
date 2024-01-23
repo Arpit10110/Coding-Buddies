@@ -11,6 +11,7 @@ import Aos from "aos";
 import Logo from "../assets/Logo.jpg";
 import twitter from "../assets/twitter.png";
 import Homepage1 from "../assets/Homepage1_photo.png";
+import page2Img from "../assets/page2Img.png";
 const Home = () => {
   useEffect(() => {
     document.title = "Coding Buddies | Home";
@@ -80,7 +81,37 @@ const Home = () => {
               of innovation within our coding club.
             </div>
           </div>
-        </div>
+         </div>
+         <div className="page2">
+          <div className="whatweDo" data-aos="zoom-in-up" data-aos-duration="2000" >
+            <h2>What we do ?</h2>
+            <p>
+            At Coding Buddies, we're more than just a community of tech enthusiasts- we're a dynamic hub where innovation meets collaboration.Connect with like-minded individuals from around the globe
+            </p>
+          </div>
+          <div className="page2-boxs">
+            <div className="what-we-do-box1" data-aos="fade-up" data-aos-anchor-placement="center-bottom"  data-aos-duration="2000">
+                <img src={page2Img} alt="page2Img" />
+                <h3>Engage and Connect</h3>
+                <p>
+                Join a vibrant community of tech enthusiasts to discuss coding challenges, share insights, and build lasting connections.Participate in forums and engage in discussions to enhance your understanding of different coding concepts
+                </p>
+            </div>
+            <div className="what-we-do-box1" data-aos="fade-up"data-aos-anchor-placement="center-bottom"  data-aos-duration="2000">
+                <img src={page2Img} alt="page2Img" />
+                <h3>Hackathon Central</h3>
+                <p>
+                Stay informed about upcoming hackathons and coding competitions locally and globally.Showcase your coding skills by participating in exciting events and challenges hosted on the platform.
+                </p>
+            </div>
+            <div className="what-we-do-box1" data-aos="fade-up"data-aos-anchor-placement="center-bottom"  data-aos-duration="2000">
+                <img src={page2Img} alt="page2Img" />
+                <h3>Project Collaboration</h3>
+                <p>Explore collaboration opportunities with other members on innovative coding projects.Share and showcase your projects within the community, fostering creativity and collaboration.
+                </p>
+            </div>
+          </div>
+         </div>
       </div>
     </>
   );

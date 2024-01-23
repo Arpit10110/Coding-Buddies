@@ -1,19 +1,19 @@
 .navbar {
     background-color: black;
     display: flex;
-    height: 14vh;
+    height: 11vh;
     justify-content: space-between;
     padding-right: 10px;
 }
 .logo {
-    width: 10%;
+    width: 8%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.logo img{
+.logo img {
     width: 100%;
-    height: 14vh;
+    height: 11vh;
 }
 .navLinks {
     display: flex;
@@ -125,14 +125,64 @@
     background-color: #1c1c1c;
     border-radius: 0px 15px 15px 0px;
 }
-
-
-
-
-
-
-
-
+.page2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding-bottom: 3rem;
+}
+.whatweDo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-shadow: 6px -9px 70px #16f1ba;
+}
+.whatweDo h2 {
+    font-size: 2.4vw;
+    text-shadow: -13px -12px 65px #16f1ba;
+}
+.whatweDo p{
+    width: 62%;
+    text-align: center;
+    font-size: 1.2vw;
+}
+.page2-boxs {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    gap: 4rem;
+}
+.what-we-do-box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    gap: 1rem;
+    border: 2.5px solid #373e3f;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 1rem;
+    transition: border-color .3s ease;
+}
+.what-we-do-box1:hover {
+    border-color: #3d3dd1;
+}
+.what-we-do-box1 img{
+    width: 50%;
+}
+.what-we-do-box1 h3{
+    font-size: 1.88vw;
+}
+.what-we-do-box1 p {
+    width: 90%;
+    font-size: 1.2vw;
+    text-align: center;
+}
 
 
 
@@ -195,7 +245,7 @@
     .navbar {
         background-color: black;
         display: flex;
-        height: 10vh;
+        height: 8vh;
         flex-direction: row;
         justify-content: space-between;
         padding-right: 10px;
@@ -208,7 +258,7 @@
     }
     .logo img {
         width: 100%;
-        height: 10vh;
+        height: 8vh;
     }
     .navLinks {
         display: flex;
@@ -227,7 +277,8 @@
     }
     .introSec {
         display: flex;
-        height: 85vh;
+        height: auto;
+        padding-bottom: 2.2rem;
         justify-content: flex-start;
         flex-direction: column;
         align-items: center;
@@ -266,7 +317,7 @@
         width: 90%;
     }
     .image1 img {
-        width: 94%;
+        width: 100%;
         display: flex;
         margin: auto;
     }
@@ -292,5 +343,61 @@
     }
     .Intro-box-main-div :nth-child(3) {
         border-radius: 0px 0px 15px 15px;
+    }
+    .page1{
+        padding-bottom: 3rem;
+    }
+    .page2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
+        padding-bottom: 2.7rem;
+    }
+    .whatweDo {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        text-shadow: 3px 0px 70px #16f1ba;
+    }
+    .whatweDo h2 {
+        font-size: 8vw;
+        text-shadow: -11px -5px 65px #16f1ba;
+    }
+    .whatweDo p {
+        width: 100%;
+        text-align: center;
+        font-size: 4vw;
+    }
+    .page2-boxs {
+        justify-content: center;
+        display: flex;
+        gap: 4.2vw;
+        flex-direction: column;
+        align-items: center;
+    }
+    .what-we-do-box1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 55%;
+        gap: 0.7rem;
+        border: 2.5px solid #373e3f;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border-radius: 1rem;
+        transition: border-color .3s ease;
+    }
+    .what-we-do-box1 h3 {
+        font-size: 5vw;
+    }
+    .what-we-do-box1 p {
+        width: 90%;
+        font-size: 4vw;
+        text-align: center;
     }
 }
