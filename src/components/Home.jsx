@@ -12,6 +12,10 @@ import Logo from "../assets/Logo.jpg";
 import twitter from "../assets/twitter.png";
 import Homepage1 from "../assets/Homepage1_photo.png";
 import page2Img from "../assets/page2Img.png";
+//detail importing
+import detail from "./membersdetail";
+//importing card compo
+import Card from "./Card.jsx"
 const Home = () => {
   useEffect(() => {
     document.title = "Coding Buddies | Home";
@@ -110,6 +114,18 @@ const Home = () => {
                 <p>Explore collaboration opportunities with other members on innovative coding projects.Share and showcase your projects within the community, fostering creativity and collaboration.
                 </p>
             </div>
+          </div>
+         </div>
+         <div className="page3">
+            <h2 className="page3-Intro" data-aos="zoom-in-up" data-aos-duration="2000">Meet Talent in our Team</h2>
+          <div className="team-Intro">
+            {
+              detail.map((i,index)=>{
+                return(
+                  <Card key={index} img={i.img} name={i.name} insta={i.insta} linkdin={i.linkdin} email={i.email} />
+                )
+              })
+            }
           </div>
          </div>
       </div>

@@ -1,0 +1,88 @@
+.page3{
+    margin-bottom: 4.5rem;
+}
+.page3-Intro {
+    text-align: center;
+    margin-bottom: 6rem;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    text-shadow: 6px -9px 70px #16f1ba;
+}
+.team-Intro{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+}
+.profilebox {
+    width: 19%;
+    padding: 0.4rem;
+    border: 3px solid #494848;
+    padding-top: 1rem;
+    border-radius: 1rem;
+}
+.profilebox:hover {
+    border-color: #43d9ff;
+}
+.profilebox img {
+    width: 75%;
+    margin: auto;
+    border-radius: 3rem;
+    /* display: flex; */
+    object-position: center;
+    height: 36vh;
+    object-fit: cover;
+    display: flex;
+    margin-bottom: 0.7rem;
+}
+.profileCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    gap: 0.3rem;
+}
+.member-social{
+    display: flex;
+    gap: 0.3rem;
+}
+.SocialIcons{
+    font-size: 2.1rem;
+    color: white;
+}
+@media only screen and (width<=600px){
+    .page3-Intro {
+        text-align: center;
+        margin-bottom: 2.5rem;
+        font-size: 1.7rem;
+        margin-top: 1.5rem;
+        text-shadow: 6px -9px 70px #16f1ba;
+    }
+    .team-Intro {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    .profilebox {
+        width: 65%;
+        padding: 0.4rem;
+        border: 3px solid #494848;
+        padding-top: 1rem;
+        border-radius: 1rem;
+    }
+    .profilebox img {
+        width: 67%;
+        margin: auto;
+        border-radius: 2rem;
+        /* display: flex; */
+        object-position: center;
+        height: 36vh;
+        object-fit: cover;
+        display: flex;
+        margin-bottom: 0.7rem;
+    }
+}
